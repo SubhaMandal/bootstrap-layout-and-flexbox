@@ -1,0 +1,24 @@
+/* Flex wrapper to center the container */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* optional page background */
+}
+
+/* Container background */
+.custom-container {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Column styles */
+.custom-column {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  margin-bottom: 10px;
+}
